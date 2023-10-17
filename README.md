@@ -1,3 +1,37 @@
+Description:
+Dans ce projet React, on dispose de trois pages : "Accueil", "Produit" et "Détail".
+ La page "Accueil" sert de page d'accueil de notre application. La page "Produit" affiche une liste de tous les produits disponibles. Chaque produit est présenté avec son titre, sa description, son prix et catégorie. Sur cette page, vous avez la possibilité d'effectuer différentes actions sur chaque produit, comme la modification, la création ou la suppression. Dans le premier scénario,
+lorsque vous mettez à jour la page, les données reviennent à leur format d'origine. Ce
+signifie que toute modification apportée aux informations sur le produit, telles que le titre,
+la description, le prix ou la catégorie ne seront pas enregistrés lorsque vous actualiserez la page.
+Les données reviennent à leur état d'origine comme si aucune modification n'avait été apportée. Cependant, dans le deuxième scénario, les données restent avec les modifications que vous avez apportées.
+ Ce implique que toutes les modifications que vous effectuez sur les informations sur le produit, telles que la mise à jour du titre, de la description, du prix ou de la catégorie persistera même si vous actualisez la page ou éloignez-vous. Les données conservent l'état modifié. Sur le Page "Produit", si vous cliquez sur le titre d'un produit spécifique, il
+vous amènera à la page « Détail ». Ici, vous pouvez voir plus en détail
+des informations sur le produit, y compris une photo et des détails supplémentaires. Pour
+produits nouvellement ajoutés, puisque vous avez mentionné que vous considériez une image aléatoire,cela signifie que lors de la création d'un nouveau produit, l'application automatiquement génère ou attribue une image aléatoire pour ce produit. Cela garantit que même
+si vous n'avez pas fourni d'image spécifique, le produit nouvellement ajouté a toujours une
+image qui lui est associée. Le projet comprend également un système de routage, qui
+vous permet de naviguer entre les différentes pages de manière transparente. Vous pouvez passer 
+de la page "Accueil" à la page "Produit" puis à la Page « Détail » en suivant les liens appropriés ou en utilisant le navigation fournie. De plus, il y a un bouton « Retour »
+mis en œuvre dans le projet. Ce bouton vous permet de revenir au précédent
+page ou étape de votre historique de navigation. Cela aide à fournir un utilisateur fluide
+expérience en permettant aux utilisateurs de revenir facilement en arrière ou de naviguer vers leur précédentemplacement dans l’application.
+
+Lignes de commande (libraires) :
+1.npx create-react-app tp2
+2.npm install react-router-dom ( for handling routing,)
+3-npm install bootstrap
+4-Install json-server globally: npm i -g server
+5- using the products.json file: json-server --watch products.json --port 5000
+6.npm start
+7.npm run server
+8.npm run build
+9.npx serve -s build -p 8080(for example)
+10.npm run build
+11.npm i json-server
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
